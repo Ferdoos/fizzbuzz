@@ -18,4 +18,7 @@ def fizzbuzz number
 	return "fizzbuzz" if divisible_by_fifteen? number
 	return "fizz" if divisible_by_three? number
 	return "buzz" if divisible_by_five? number
+	number
 end
+
+(1..100).each {|number| puts (fizzbuzz(number))}
