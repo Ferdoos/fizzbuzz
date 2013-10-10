@@ -33,5 +33,10 @@ describe 'fizzbuzz' do
 		it 'returns 16 if 16 given' do 
 			expect(fizzbuzz(16)).to eq 16
 		end
+
+		it 'returns 18 if 18 given' do
+			expect(fizzbuzz(2)).to eq 2
+		end
+
 	end	
 end
