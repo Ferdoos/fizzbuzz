@@ -25,5 +25,9 @@ describe 'fizzbuzz' do
 		it 'returns fizzbuzz if number if divisible by fifteen' do
 			expect(fizzbuzz(15)).to eq 'fizzbuzz'
 		end
+
+		it 'fizzbuzz returns 4 if 4 given' do
+			expect(fizzbuzz(4)).to eq 4
+		end
 	end	
 end
