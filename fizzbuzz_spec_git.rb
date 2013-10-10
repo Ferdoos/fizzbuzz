@@ -9,7 +9,7 @@ describe 'fizzbuzz' do
 		expect(divisible_by_five?(5)).to be_true
 	end
 
-	it 'tells me if a number is divisible by fifteen' dp
+	it 'tells me if a number is divisible by fifteen' do
 		expect(divisible_by_fifteen?(15)).to be_true
 	end
 	
