@@ -1,3 +1,4 @@
+require './fizzbuzz'
 
 describe 'fizzbuzz' do 
 	it 'tells me if a number is divisible by three' do
